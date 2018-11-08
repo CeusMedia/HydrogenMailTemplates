@@ -1,0 +1,31 @@
+{
+    "type": "mail-template",
+    "title": "Basic 1",
+    "version": "0",
+    "language": "*",
+    "contents": {
+        "text": "[#app.title#]\r\n============================================================\r\n\r\n[#content#]\r\n\r\n------------------------------------------------------------\r\n[#app.title#] ([#app.url#])\r\n[#app.email#]",
+        "html": "<div class=\"mail-layout\">\r\n\t<div class=\"mail-header\">\r\n\t\t<h1>[#app.title#]<\/h1>\r\n\t<\/div>\r\n\t<div class=\"mail-content\">\r\n\t\t[#content#]\r\n\t<\/div>\r\n\t<div class=\"mail-footer\">\r\n\t\t<a href=\"[#app.url#]\">[#app.title#]<\/a> | <a href=\"mailto:[#app.email#]\">[#app.email#]<\/a>\r\n\t<\/div>\r\n<\/div>",
+        "css": "body {\r\n\tpadding: 2em;\r\n\t}\r\ndiv.mail-layout {\r\n\twidth: 600px;\r\n\tmargin: 0px auto;\r\n\t}\r\ndiv.mail-layout div.mail-header {\r\n\tborder-bottom: 4px solid rgba(127, 127, 127, 0.75);\r\n\t}\r\ndiv.mail-layout div.mail-content {\r\n\tpadding: 1em 0em;\r\n\t}\r\ndiv.mail-layout div.mail-footer {\r\n\tborder-top: 2px solid rgba(127, 127, 127, 0.5);\r\n\tfont-size: 0.8rem;\r\n\t}"
+    },
+    "files": {
+        "css": [
+            "themes\/common\/css\/bootstrap.email.min.css"
+        ],
+        "image": [
+
+        ]
+    },
+    "links": {
+        "css": [
+
+        ],
+        "image": [
+
+        ]
+    },
+    "dates": {
+        "createdAt": "1541704076",
+        "modifiedAt": "1541706584"
+    }
+}
